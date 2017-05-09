@@ -1,19 +1,42 @@
 package boletin17Junit;
 
+import java.lang.Math;
+
 public class Xeometria {
 
 	int perimetroCadrado(int lado) {
-		return lado;
+		int perimetro;
+
+		perimetro = (lado * 4);
+
+		return perimetro;
 	}
 
 	int areaCadrado(int lado) {
-		return lado;
+		int area;
+
+		area = (lado * lado);
+
+		return area;
 	}
 
-	double teoremaPitagoras(int CatetoA, int CatetoB) {
-		return CatetoA;
-		return CatetoB;
-		
+	double teoremaPitagoras(int catetoA, int catetoB) {
+
+		double hipotenusa;
+
+		hipotenusa = Math.sqrt((catetoA * catetoA) + (catetoB * catetoB));
+
+		return hipotenusa;
 
 	}
+
+	double teoremaPitagoras(double hipotenusa, double catetoA) {
+
+		double catetoB;
+
+		catetoB = Math.sqrt((catetoA * catetoA) - (hipotenusa * hipotenusa));
+
+		return catetoB;
+	}
+
 }
