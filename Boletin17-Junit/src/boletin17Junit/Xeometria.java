@@ -30,7 +30,7 @@ public class Xeometria {
 
 	}
 
-	double teoremaPitagoras(double hipotenusa, double catetoA) {
+	double teoremaPitagoras1(double hipotenusa, double catetoA) {
 
 		double catetoB;
 

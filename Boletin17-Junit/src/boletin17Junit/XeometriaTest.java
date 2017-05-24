@@ -9,26 +9,31 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class XeometriaTest {
+	
+	Xeometria Xeometria = new Xeometria();
 
-	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
-	}
-
-	@AfterClass
-	public static void tearDownAfterClass() throws Exception {
-	}
-
-	@Before
-	public void setUp() throws Exception {
-	}
-
-	@After
-	public void tearDown() throws Exception {
+	@Test
+	public void testperimetroCadrado() {
+		assertEquals(Xeometria.perimetroCadrado(),);
+		assertEquals(Xeometria.perimetroCadrado(),)
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testareaCadrado() {
+		assertEquals(Xeometria.areaCadrado(),);
+		assertEquals(Xeometria.areaCadrado(),)
 	}
-
+	
+	@Test
+	public void testteoremaPitagoras() {
+		assertEquals(Xeometria.teoremaPitagoras(),);
+		assertEquals(Xeometria.teoremaPitagoras(),)
+	}
+	
+	@Test
+	public void testteoremaPitagoras1() {
+		assertEquals(Xeometria.teoremaPitagoras1(),);
+		assertEquals(Xeometria.teoremaPitagoras1(),)
+	}
+	
 }
